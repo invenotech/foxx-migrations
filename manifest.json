@@ -1,0 +1,19 @@
+{
+  "name": "migrations",
+  "version": "0.5.3",
+  "license": "MIT",
+  "description": "Data Migrations Management",
+  "keywords": ["invenotech", "rest", "data", "migrations"],
+  "author": "David L Dyess II",
+  "contributors": ["David Dyess II <david.dyess@gmail.com>"],
+  "main": "index.js",
+  "scripts": {
+    "setup": "scripts/setup.js"
+  },
+  "provides": {
+    "@invenotech/migrations": "1.0.0"
+  },
+  "engines": {
+    "arangodb": "^3.0.0"
+  }
+}
